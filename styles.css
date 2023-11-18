@@ -1,0 +1,43 @@
+:root {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    body { background: #1D267D; color: white; } /*#333*/
+    .container {
+        font-family: Arial, sans-serif;
+        background-color: #5C469C;
+        border: 2px solid black; /* Kutucuğun kenarlarını siyah bir çizgi ile belirtmek */
+        padding: 10px; /* İçeriği çevreleyen boşluk */
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-image: url("milky-way.jpg") ;
+        background-size: cover;
+
+
+    } /*#ddd*/
+    .container {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #8e8ffa 0%, #1d267d 100%);
+        border: 2px solid black; /* Kutucuğun kenarlarını siyah bir çizgi ile belirtmek */
+        padding: 10px; /* İçeriği çevreleyen boşluk */
+    }
+    .container * {
+        opacity: 1;
+    }
+
+}
+
+
+
+
+#ct {
+    font-family: Arial,  serif ;
+}
+#ts {
+    font-family: Arial,  serif ;
+}
+
